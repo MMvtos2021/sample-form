@@ -1,0 +1,75 @@
+body {
+    
+    padding:0;
+    margin: 10px;
+    text-align: center;
+    background: #2cc4a7;
+    color: black;
+    font-size: 100%;
+        
+}
+
+header {
+    
+    display: flex;
+    align-content:space-between;
+}
+
+h2 {
+    
+    font-size: 150%;
+    flex:1;
+}
+
+button {
+    
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 40px;
+    font-weight: bold;
+    background: #Eff4ED;
+    color: red;
+    flex: 1;
+}
+
+#myform {
+    
+    display: none;
+}
+
+
+input[type=text], input[type=submit] {
+    
+    padding: 12px 20px;
+    width: 50%;
+ font-family: 'robot', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

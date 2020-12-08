@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Show - Hide - Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h2>HTML Forms</h2>
+
+        <button onclick="showhide()">Show and Hide</button>
+
+    </header>
+
+
+
+    <form id="myform" action="/action_page.php">
+
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <br>
+        <input type="text" id="lname" name="lname">
+        <br><br>
+
+        <input type="submit" value="submit">
+
+
+    </form>
+
+
+    <script>
+        function showhide() {
+
+            var x = document.getElementById("myform");
+
+            if (x.style.display === "none") {
+
+                x.style.display = "block";
+            } else {
+
+                x.style.display = "none";
+            }
+
+
+
+        }
+    </script>
+
+
+
+</body>
+
+
+</html>
